@@ -12,6 +12,29 @@ eigentliche Vereinsarbeit konzentrieren können. Details zur Vision stehen in de
 Das Projekt befindet sich in der Anfangsphase – es gibt noch keinen festgelegten Tech-Stack.
 Diesen Abschnitt erweitern, sobald Entscheidungen dazu getroffen sind.
 
+### Grundsatzentscheidungen
+
+- **Baukasten:** vereina besteht aus einem **festen Kern** (Vereinsprofil, Personen und Gruppen,
+  Rollen und Rechte, Benachrichtigungen, Aufgaben und Erinnerungen, Dateiablage,
+  Datenschutz-Grundlagen) und **wählbaren Modulen**. Vereine schalten ganze Module an oder ab,
+  auf Vereins- und auf Abteilungsebene. Details: [Baukasten-Konzept](docs/plans/2026-11-05-baukasten-konzept.md).
+- **Architekturregel:** Module sprechen nur über den Kern miteinander und greifen nie direkt auf
+  die Daten anderer Module zu. Jedes Modul muss auch ohne die anderen funktionieren.
+- **Plugin-System für Module von Dritten:** bewusst auf später verschoben. Die Architekturregel
+  hält diese Option offen.
+
+### Wichtige Dokumente
+
+Vor Arbeiten an Konzept oder Umsetzung lesen:
+
+- [Anforderungen](docs/plans/2026-11-05-anforderungen-vereina.md): Leitprinzipien, Anforderungen
+  mit Kennungen (z. B. `MIT-01`), Ausbaustufen, offene Entscheidungen
+- [Baukasten-Konzept](docs/plans/2026-11-05-baukasten-konzept.md): Kern, Modulkatalog (`M1`–`M17`),
+  Abhängigkeiten
+
+Neue Anforderungen bekommen eine Kennung im Anforderungsdokument und werden im Baukasten-Konzept
+dem Kern oder einem Modul zugeordnet.
+
 ## Dokumentation und Recherchen
 
 **Alle Recherchen und Dokumentationen gehören in den Ordner [`docs/`](docs/).** Keine
@@ -22,8 +45,8 @@ Aktuelle Unterteilung:
 
 | Ordner           | Inhalt                                                               |
 | ---------------- | -------------------------------------------------------------------- |
-| `docs/research/` | Recherchen: Vereinsabläufe, bestehende Lösungen, Anforderungen, Technologien |
-| `docs/plans/`    | Pläne, Konzepte, Umsetzungsschritte und getroffene Entscheidungen     |
+| `docs/research/` | Recherchen: Vereinsabläufe, bestehende Lösungen, Technologien         |
+| `docs/plans/`    | Anforderungen, Konzepte, Pläne, Umsetzungsschritte und getroffene Entscheidungen |
 
 Regeln:
 
