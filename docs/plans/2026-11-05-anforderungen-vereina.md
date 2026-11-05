@@ -8,6 +8,11 @@ Vereinen überprüft werden.
 - **R1:** [Marktrecherche: Bestehende Tools](../research/2026-11-05-bestehende-vereinssoftware.md)
 - **R2:** [Entlastungspotenziale in der Vereinsarbeit](../research/2026-11-05-entlastungspotenziale-vereinsarbeit.md)
 
+> **Baukasten:** vereina besteht aus einem festen Kern und wählbaren Modulen. Welche Anforderung
+> zu welchem Kern-Baustein oder Modul gehört, steht im
+> [Baukasten-Konzept](2026-11-05-baukasten-konzept.md). Die Ausbaustufen in Kapitel 5 sagen,
+> **wann** etwas gebaut wird. Das Baukasten-Konzept sagt, **wo** es hingehört.
+
 ---
 
 ## 1. Worum es geht
@@ -331,7 +336,8 @@ diese wäre vereina in Stufe 1 nur eine weitere Mitgliederverwaltung.
 2. **Zielgruppe der ersten Version:** Welche Vereinsart und -größe kommt zuerst (kleiner
    Kulturverein, Sportverein mit Abteilungen, Förderverein, Kleingartenverein …)? Davon hängt
    z. B. ab, wie wichtig Pflichtstunden, Anwesenheit oder Spielbetrieb sind.
-3. **Rolle am Markt:** Komplettlösung, die bestehende Software ersetzt, oder **Organisations-Tool**,
-   das neben einer Verwaltung läuft und sich mit ihr verbindet? (R1 §6.4)
+3. ~~**Rolle am Markt:** Komplettlösung oder Organisations-Tool?~~ **Entschieden:** beides, über
+   den Baukasten. Vereine wählen Module und können Beiträge und Finanzen weglassen, wenn sie schon
+   eine andere Verwaltung nutzen (siehe [Baukasten-Konzept](2026-11-05-baukasten-konzept.md)).
 4. **Geschäftsmodell:** Gratis-Tarif, Preis nach Mitgliedern oder pauschal, Transaktionsgebühren?
 5. **Validierung:** Gespräche mit 5–10 Vereinen, bevor der Umfang von Stufe 1 festgelegt wird (R2 §10)
